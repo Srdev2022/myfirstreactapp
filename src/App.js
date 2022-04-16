@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
+import Board from './components/Board';
+import Game from './components/Game';
 
 function App() {
   return (
@@ -18,7 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        
+        <Game/>
         <Button/>
+        <Board/>
       </header>
     </div>
   );

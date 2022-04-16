@@ -13,6 +13,7 @@ export default function Button() {
                  setCount(count + 1)
              }}
             >Increase</button>
+            
         </div>
     )
 }
